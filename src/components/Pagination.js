@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-
+import { useTranslation } from 'react-i18next';
 function Pagination({ renderPage, currentPage, totalPages }) {
-
+    const { t } = useTranslation();
     return (
         <nav className='border  py-5' aria-label="Page navigation">
             <ul className="inline-flex -space-x-px text-base h-10">
@@ -12,7 +12,7 @@ function Pagination({ renderPage, currentPage, totalPages }) {
                         onClick={() => renderPage(currentPage - 1)}
                         disabled={currentPage === 1}
                     >
-                        Previous
+                        {t("previous")}
                     </a>
                 </li>
                 {renderPage()}
@@ -23,7 +23,7 @@ function Pagination({ renderPage, currentPage, totalPages }) {
                         onClick={() => renderPage(currentPage + 1)}
                         disabled={currentPage === totalPages}
                     >
-                        Next
+                     {t("next")}
                     </a>
                 </li>
             </ul>

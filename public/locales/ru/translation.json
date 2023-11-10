@@ -1,0 +1,18 @@
+{
+  "home": "Дом",
+  "about": "О",
+  "services": "Услуги",
+  "pricing": "Цены",
+  "contact": "Контакт",
+  "previous": "Предыдущий",
+  "next": "Следующий",
+  "resources": "Ресурсы",
+  "flowbite": "Фловбит",
+  "tailwindCSS": "CSS попутного ветра",
+  "followus": "Подписывайтесь на нас",
+  "github": "Гитхаб",
+  "discord": "Раздор",
+  "legal": "Юридический",
+  "privacyPolicy": "политика конфиденциальности",
+  "terms&Conditions": "Условия использования"
+}
