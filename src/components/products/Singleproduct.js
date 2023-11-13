@@ -3,6 +3,10 @@ import images from "../../images/pexels-ge-yonk-1152077.jpg";
 function Singleproduct({ product }) {
   const [buttonText, setButtonText] = useState(false);
 
+  const elementStyle = {
+    overflow: "hidden",
+  };
+
   const ButtonFunc = () => {
     setButtonText(true);
 
@@ -21,7 +25,7 @@ function Singleproduct({ product }) {
       </a>
       <div class="px-5 pb-5">
         <a href="#">
-          <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+          <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white mt-2 h-[52px]" style={elementStyle}>
             {product.title}
           </h5>
         </a>
