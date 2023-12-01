@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import Admin_product from './components/Admin_product';
 import Dashboard_page from './components/Dashboard_page';
 import Mahsulotlar from './components/Mahsulotlar';
+import Banner_img from './components/Banner_img';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +27,7 @@ root.render(
             <Route path='create_product' element={<Admin_product />} />
             <Route path='dashboard_page' element={<Dashboard_page/>} />
             <Route path='mahsulotlar' element={<Mahsulotlar/>} />
+            <Route path='banner_img' element={<Banner_img/>} />
 
           </Route>
         </Routes>
