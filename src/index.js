@@ -12,6 +12,10 @@ import Admin_product from './components/Admin_product';
 import Dashboard_page from './components/Dashboard_page';
 import Mahsulotlar from './components/Mahsulotlar';
 import Banner_img from './components/Banner_img';
+import Singlepage from "./singlepage/Singlepage"
+import ItemCommit from "./singlepage/itemcommit/ItemCommit"
+import ShopCommit from "./singlepage/shopcommit/ShopCommit"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +33,10 @@ root.render(
             <Route path='mahsulotlar' element={<Mahsulotlar/>} />
             <Route path='banner_img' element={<Banner_img/>} />
 
+          </Route>
+          <Route path='/singlepage/:id' element={<Singlepage />} >
+            <Route path='itemcommit' element={<ItemCommit />} />
+            <Route path='shopcommit' element={<ShopCommit />} />
           </Route>
         </Routes>
       </BrowserRouter>
