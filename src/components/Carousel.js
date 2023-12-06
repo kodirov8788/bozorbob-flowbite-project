@@ -18,7 +18,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 function Carousel() {
     return (
-        <div className="w-[100%] h-[700px] p-3 pt-20   md:pr-[138px] md:pl-[138px]">
+        <div className="w-[100%] h-[700px] p-5 pt-20   md:pr-[138px] md:pl-[138px]">
             <div className="w-full h-auto">
                 <Swiper
                     // install Swiper modules
