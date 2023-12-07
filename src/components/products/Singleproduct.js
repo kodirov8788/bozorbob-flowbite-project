@@ -16,7 +16,7 @@ function Singleproduct({ product }) {
     }, 2000);
   };
   return (
-    <div class="w-full h-[400px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div class="w-full h-[400px]  max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
         <img
           class="p-8 rounded-t-lg h-[50%] w-full object-contain"
