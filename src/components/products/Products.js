@@ -51,7 +51,7 @@ function Products() {
     };
 
     return (<>
-        <div className='grid grid-cols-1 gap-3 pt-3 mx-auto border w-4/5 items-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5'>
+        <div className='grid grid-cols-1 gap-3 pt-3 mx-auto w-4/5 items-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5'>
             {currentProducts.map(product => (
                 <Singleproduct product={product} />
             ))}

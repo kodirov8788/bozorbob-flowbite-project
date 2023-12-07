@@ -12,14 +12,13 @@ import Admin_product from './components/Admin_product';
 import Dashboard_page from './components/Dashboard_page';
 import Mahsulotlar from './components/Mahsulotlar';
 import Banner_img from './components/Banner_img';
-<<<<<<< HEAD
+
 import Singlepage from "./singlepage/Singlepage"
 import ItemCommit from "./singlepage/itemcommit/ItemCommit"
 import ShopCommit from "./singlepage/shopcommit/ShopCommit"
 
-=======
 import DashboardCatigory from './components/DashboardCatigory';
->>>>>>> b0bd7985696af6a4ad9225e16743f963e9d96e93
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
