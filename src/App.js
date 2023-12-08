@@ -1,4 +1,5 @@
 import './App.css';
+import Carousel from './components/Carousel';
 import Counter from './components/Counter/Counter';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -8,7 +9,9 @@ import Products from './components/products/Products';
 function App() {
   return (
     <div className="App">
-      <Products />
+     <Carousel/> 
+     <Products />
+      
       {/* <Pagination /> */}
       <Footer />
 
